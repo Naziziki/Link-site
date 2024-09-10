@@ -15,7 +15,10 @@ body {
   font-size: 20px;
   backdrop-filter: blur(10px);
 }
-
+a {
+  text-decoration: none; /* Убирает подчеркивание */
+  color: inherit;
+}
 .container {
   background: white;
   width: 100%;
